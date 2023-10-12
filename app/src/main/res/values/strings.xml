@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Draft</string>
+    <string name="button_text"> Нажми на меня</string>
+    <string name="text_1">Количество литров:</string>
+    <string name="text_mark">Марка бензина</string>
+    <string name="edittext"> 0 </string>
+    <string name="radiobutton_4">92     50 руб.</string>
+    <string name="radiobutton_5">95     55 руб.</string>
+    <string name="radiobutton_6">98     57 руб.</string>
+</resources>
