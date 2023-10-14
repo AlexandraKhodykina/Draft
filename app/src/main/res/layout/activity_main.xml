@@ -77,6 +77,13 @@
             android:layout_height="wrap_content"
             android:text="@string/radiobutton_6"
             android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton"
+            />
     </RadioGroup>
 
     <Button
@@ -84,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginBottom="284dp"
         android:text="@string/button_text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var oneRadioButton: RadioButton
     private lateinit var twoRadioButton: RadioButton
     private lateinit var threeRadioButton: RadioButton
+    private lateinit var forRadioButton: RadioButton
     private var cost: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,10 +34,12 @@ class MainActivity : AppCompatActivity() {
         oneRadioButton = findViewById(R.id.radioButton4)
         twoRadioButton = findViewById(R.id.radioButton5)
         threeRadioButton = findViewById(R.id.radioButton6)
+        forRadioButton = findViewById(R.id.radioButton)
 
         oneRadioButton.setOnClickListener(variantListener)
         twoRadioButton.setOnClickListener(variantListener)
         threeRadioButton.setOnClickListener(variantListener)
+        forRadioButton.setOnClickListener(variantListener)
 
 
         okButton.setOnClickListener {
@@ -50,8 +53,9 @@ class MainActivity : AppCompatActivity() {
     private val variantListener = View.OnClickListener {
         when(RadioGroup.checkedRadioButtonId){
             R.id.radioButton4 ->updateCost(50)
-            R.id.radioButton5 ->updateCost(55)
-            R.id.radioButton6 ->updateCost(57)
+            R.id.radioButton5 ->updateCost(57)
+            R.id.radioButton6 ->updateCost(55)
+            R.id.radioButton ->updateCost(60)
             else -> updateCost(0)
         }
     }

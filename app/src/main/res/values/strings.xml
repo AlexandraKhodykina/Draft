@@ -7,4 +7,5 @@
     <string name="radiobutton_4">92     50 руб.</string>
     <string name="radiobutton_5">95     55 руб.</string>
     <string name="radiobutton_6">98     57 руб.</string>
+    <string name="radiobutton">100     60 руб.</string>
 </resources>
